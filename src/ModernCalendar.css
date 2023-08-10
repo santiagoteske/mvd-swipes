@@ -1,0 +1,100 @@
+/* ModernCalendar.css */
+.modern-calendar {
+  /* Estilos para el contenedor principal del calendario */
+  width: 90%;
+  max-width: 600px;
+  background-color: #b2b0b0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  flex: 1;
+  margin-bottom: 10%;
+  text-transform: uppercase;
+}
+
+/* Estilos para los días de la semana */
+.react-calendar__month-view__weekdays {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Estilos para los días del mes */
+.react-calendar__tile {
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.react-calendar__tile--active {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+} 
+
+.react-calendar__tile--today {
+  background-color: #007bff;
+  color: #b2b0b0;
+  text-transform: uppercase;
+}
+
+.react-calendar__tile--weekend {
+  color: #007bff;
+  text-transform: uppercase;
+}
+
+/* Estilos para los botones de navegación */
+.react-calendar__navigation button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  text-transform: uppercase;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  color: #007bff;
+  text-transform: uppercase;
+}
+
+/* Estilos para los botones de cambio de mes */
+.react-calendar__navigation button:enabled:active {
+  color: #0056b3;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .modern-calendar {
+    width: 90%;
+    max-width: 400px;
+    /* Resto de estilos específicos para pantallas más pequeñas, si es necesario */
+  }
+}
+
+/* Estilos para los días seleccionados */
+.react-calendar__tile--selected {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Estilos para los indicadores de los días seleccionados */
+.react-calendar__tile--selected-indicator {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  color: #fff;
+  margin-top: -3px;
+  margin-left: 2px;
+}
+
+/* Estilo para el indicador del día actual */
+.react-calendar__tile--today .react-calendar__tile--selected-indicator {
+  color: #b2b0b0;
+}
