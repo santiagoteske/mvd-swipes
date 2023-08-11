@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mvd-swipes/static/css/main.7c6f8018.css",
+    "main.js": "/mvd-swipes/static/js/main.5b012c49.js",
+    "static/js/787.e2c5ad52.chunk.js": "/mvd-swipes/static/js/787.e2c5ad52.chunk.js",
+    "index.html": "/mvd-swipes/index.html",
+    "main.7c6f8018.css.map": "/mvd-swipes/static/css/main.7c6f8018.css.map",
+    "main.5b012c49.js.map": "/mvd-swipes/static/js/main.5b012c49.js.map",
+    "787.e2c5ad52.chunk.js.map": "/mvd-swipes/static/js/787.e2c5ad52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c6f8018.css",
+    "static/js/main.5b012c49.js"
+  ]
+}
